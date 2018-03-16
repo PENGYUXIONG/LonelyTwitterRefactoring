@@ -13,7 +13,6 @@ public class ImportantLonelyTweet extends LonelyTweet {
 		this.tweetDate = new Date();
 		this.tweetBody = text;
 	}
-
 	@Override
 	public boolean isValid() {
 		if (tweetBody.trim().length() == 0

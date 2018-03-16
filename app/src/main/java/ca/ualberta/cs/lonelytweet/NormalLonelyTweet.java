@@ -11,7 +11,7 @@ public class NormalLonelyTweet extends LonelyTweet {
 		this.tweetDate = new Date();
 		this.tweetBody = text;
 	}
-
+	// Task 1: allow the length of at most 10 characters
 	@Override
 	public boolean isValid() {
 		if (tweetBody.trim().length() == 0
@@ -26,7 +26,7 @@ public class NormalLonelyTweet extends LonelyTweet {
 	public String toString() {
 		return getTweetDate() + " | " + getTweetBody() ;
 	}
-
+	// task 2
 	public String getTweetBody() {
         return tweetBody;
     }

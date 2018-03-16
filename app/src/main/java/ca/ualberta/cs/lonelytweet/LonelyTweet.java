@@ -12,7 +12,7 @@ public abstract class LonelyTweet implements Serializable {
     private static final long serialVersionUID = 1L;
     protected Date tweetDate;
     protected String tweetBody;
-
+    // task 5: getters and setters
     public Date getTweetDate() {
         return tweetDate;
     }

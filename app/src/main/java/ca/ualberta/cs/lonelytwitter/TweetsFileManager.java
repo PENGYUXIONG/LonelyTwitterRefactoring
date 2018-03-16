@@ -18,7 +18,7 @@ public class TweetsFileManager {
 
 	public static final String FILE_NAME = "file.sav";
 	private Context ctx;
-
+	// task 3 extract the content
 	public TweetsFileManager(Context ctx) {
 		this.ctx = ctx;
 	}
